@@ -29,10 +29,7 @@
                     </article>
                 <% } %>
             </div>
-            <section class="pagination">
-                <a href="/?pagina=1">1</a>
-                <a href="/?pagina=2">2</a>
-            </section>
+            <%- include('../includes/paginacion.ejs') %>
         <% } else { %>
             <h1>No hay productos</h1>
         <% } %>
